@@ -1,0 +1,52 @@
+<mxfile host="Electron" modified="2023-12-03T08:05:25.371Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.7.5 Chrome/114.0.5735.289 Electron/25.8.1 Safari/537.36" etag="kNU2kRS3WyPj4KY-ACqo" version="21.7.5" type="device">
+  <diagram name="Page-1" id="AKUHWD5xgru5GouT6Fz5">
+    <mxGraphModel dx="1149" dy="669" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1400" pageHeight="850" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="0jynSjcYnZbBXjKLWIPs-31" value="" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;size=110;" vertex="1" parent="1">
+          <mxGeometry x="220" y="80" width="470" height="359" as="geometry" />
+        </mxCell>
+        <mxCell id="0jynSjcYnZbBXjKLWIPs-1" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="10" y="205.5" width="100" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="0jynSjcYnZbBXjKLWIPs-2" value="nisumDb(H2)" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="10" y="255.5" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="0jynSjcYnZbBXjKLWIPs-23" value="HTTP POST&lt;br&gt;/nisum-service/api/v1/register" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="830" y="209.5" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="0jynSjcYnZbBXjKLWIPs-32" value="" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;size=90;" vertex="1" parent="1">
+          <mxGeometry x="270" y="120" width="360" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="0jynSjcYnZbBXjKLWIPs-33" value="&lt;b&gt;Domain&lt;br&gt;&lt;font face=&quot;JetBrains Mono, monospace&quot;&gt;UsersRepository&lt;/font&gt;&lt;/b&gt;" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;size=65;" vertex="1" parent="1">
+          <mxGeometry x="315" y="165" width="265" height="215" as="geometry" />
+        </mxCell>
+        <mxCell id="0jynSjcYnZbBXjKLWIPs-34" value="Application&lt;br&gt;UserRegister" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="397.5" y="130" width="105" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="0jynSjcYnZbBXjKLWIPs-35" value="Infrastructure&lt;br&gt;UserController" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="395" y="90" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="0jynSjcYnZbBXjKLWIPs-37" value="H2 Adapter" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="230" width="120" height="49.5" as="geometry" />
+        </mxCell>
+        <mxCell id="0jynSjcYnZbBXjKLWIPs-38" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.75;exitDx=0;exitDy=0;" edge="1" parent="1" source="0jynSjcYnZbBXjKLWIPs-37" target="0jynSjcYnZbBXjKLWIPs-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="420" y="350" as="sourcePoint" />
+            <mxPoint x="470" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0jynSjcYnZbBXjKLWIPs-39" value="HTTP Adapter" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="610" y="230" width="140" height="49.5" as="geometry" />
+        </mxCell>
+        <mxCell id="0jynSjcYnZbBXjKLWIPs-40" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="0jynSjcYnZbBXjKLWIPs-39">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="990" y="255.5" as="sourcePoint" />
+            <mxPoint x="750" y="250.25" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
