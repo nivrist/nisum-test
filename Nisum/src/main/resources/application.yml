@@ -1,0 +1,35 @@
+app:
+    dateFormat: dd-MM-yyyy
+    password-pattern: ^(?=.*[A-Z])(?=.*\d)(?=.*[!@#])[\w!@#]{6,15}$
+    email-pattern: ^[a-zA-Z0-9._-]+@[a-zA-Z0-9._-]+\.cl$
+
+server:
+    port: 8080
+    servlet:
+        context-path: /nisum-service
+spring:
+    messages:
+        basename: classpath:messages
+    mvc:
+        locale:
+            default-locale: es
+
+    application:
+        name: NisumApplication
+    banner:
+        location: banner.txt
+    datasource:
+        driverClassName: org.h2.Driver
+        password: password
+        url: jdbc:h2:mem:nisumDB;
+        username: sa
+    h2:
+        console:
+            enabled: true
+    jackson:
+        time-zone: America/Santiago
+    jpa:
+        hibernate:
+            ddl-auto: update
+    profiles:
+        active: dev
