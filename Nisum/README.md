@@ -12,7 +12,7 @@ Este proyecto es una aplicación Java basada en la arquitectura hexagonal, desar
 - **Lombok para Mayor Claridad del Código**: Se emplea Lombok, una biblioteca de Java, para eliminar la necesidad de escribir código repetitivo como getters, setters y constructores. Esto resulta en un código más limpio y fácil de entender.
 
 
-- **Pruebas Unitarias con Mockito**: El código se somete a pruebas unitarias utilizando Mockito. Esto garantiza que la lógica del programa funcione como se espera y facilita las futuras actualizaciones.
+- **Pruebas Unitarias con Mockito y Pruebas de Integracion**: El código se somete a pruebas unitarias utilizando Mockito. Esto garantiza que la lógica del programa funcione como se espera y facilita las futuras actualizaciones.
 
 
 - **Base de Datos H2**: La base de datos se implementa mediante H2, una base de datos en memoria. Esto permite almacenar datos en tiempo de ejecución sin necesidad de una base de datos externa, acceso a base H2:
